@@ -30,3 +30,4 @@ if __name__ == "__main__":
     d = pd.read_csv("../data/test.csv")
     d["predict"] = res
     d.to_csv("./pred/result.csv", encoding="utf-8-sig")
+    print("test")
